@@ -5,7 +5,17 @@
 <configuration>
 
     <!--引入外部配置文件-->
+    <!--需要注意的是：文件名 和 pom.xml 里面的目录 resources 目录下的文件名必须保持一直才能读取到-->
     <properties resource="db.properties"/>
+
+    <!--别名-->
+    <typeAliases>
+        <!--1 单个取别名-->
+<!--        <typeAlias type="com.kuang.pojo.User" alias="User"></typeAlias>-->
+        <!--2 实体类包名,自动将包下的所有实体类起别名，默认首字母小写-->
+        <package name="com.kuang.pojo"/>
+        <!--3 实体类中添加注解 @Alias("hello"),需要配合2 方式使用-->
+    </typeAliases>
 
     <environments default="development">
         <environment id="development">
@@ -23,13 +33,11 @@
             </dataSource>
         </environment>
     </environments>
+
+    <!--添加 mapper-->
     <mappers>
         <mapper resource="com/kuang/dao/userMapper.xml"/>
     </mappers>
 
-
-<!--    <typeAliases>-->
-<!--        <typeAlias type="com.kuang.pojo.User" alias="User"></typeAlias>-->
-<!--    </typeAliases>-->
 
 </configuration>

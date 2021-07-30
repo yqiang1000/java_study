@@ -15,6 +15,7 @@ public class UserTest {
     public void test() {
 
         selectUserById();
+        selectAllUser();
 
     }
 
