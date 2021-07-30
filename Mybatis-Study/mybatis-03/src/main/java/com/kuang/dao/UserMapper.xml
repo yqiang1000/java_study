@@ -5,10 +5,14 @@
 
 <mapper namespace="com.kuang.dao.UserMapper">
 
-    <select id="selectAllUser" parameterType="list" resultType="User">
+    <resultMap id="UserMap" type="User">
+        <result column="pwd" property="password"/>
+    </resultMap>
+    
+    <select id="selectAllUser" parameterType="list" resultMap="UserMap">
         select * from user
     </select>
-    <select id="getOneUser" parameterType="integer" resultType="User">
+    <select id="getOneUser" parameterType="integer" resultMap="UserMap">
         select * from user where id = #{id}
     </select>
 
