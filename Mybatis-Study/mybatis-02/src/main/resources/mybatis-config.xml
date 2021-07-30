@@ -4,6 +4,21 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+<!--    顺序固定，不可改变 -->
+<!--    configuration（配置）-->
+<!--    properties（属性）-->
+<!--    settings（设置）-->
+<!--    typeAliases（类型别名）-->
+<!--    typeHandlers（类型处理器）-->
+<!--    objectFactory（对象工厂）-->
+<!--    plugins（插件）-->
+<!--    environments（环境配置）-->
+<!--    environment（环境变量）-->
+<!--    transactionManager（事务管理器）-->
+<!--    dataSource（数据源）-->
+<!--    databaseIdProvider（数据库厂商标识）-->
+<!--    mappers（映射器）-->
+
     <!--引入外部配置文件-->
     <!--需要注意的是：文件名 和 pom.xml 里面的目录 resources 目录下的文件名必须保持一直才能读取到-->
     <properties resource="db.properties"/>
@@ -36,7 +51,12 @@
 
     <!--添加 mapper-->
     <mappers>
+        <!-- 1 resource 注册-->
         <mapper resource="com/kuang/dao/userMapper.xml"/>
+        <!-- 2 class 注册-->
+<!--        <mapper class="com.kuang.dao.UserMapper"></mapper>-->
+        <!-- 3 url 注册（基本不用）-->
+<!--        <mapper url="file:///var/mappers/UserMapper.xml"/>-->
     </mappers>
 
 
