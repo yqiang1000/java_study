@@ -12,3 +12,10 @@ Mybatis-Study/mybatis-03/target/classes/com/kuang/dao/UserMapper.xml
 Mybatis-Study/mybatis-03/target/classes/com/kuang/pojo/User.class
 Mybatis-Study/mybatis-03/target/classes/com/kuang/utils/MybatisUtils.class
 Mybatis-Study/mybatis-03/target/test-classes/dao/UserTest.class
+Mybatis-Study/mybatis-04/target/classes/db.properties
+Mybatis-Study/mybatis-04/target/classes/mybatis-config.xml
+Mybatis-Study/mybatis-04/target/classes/com/kuang/dao/UserMapper.class
+Mybatis-Study/mybatis-04/target/classes/com/kuang/dao/UserMapper.xml
+Mybatis-Study/mybatis-04/target/classes/com/kuang/pojo/User.class
+Mybatis-Study/mybatis-04/target/classes/com/kuang/utils/MybatisUtils.class
+Mybatis-Study/mybatis-04/target/test-classes/dao/UserTest.class
