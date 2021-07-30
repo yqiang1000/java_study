@@ -33,7 +33,7 @@ public class UserTest {
         SqlSession session = MybatisUtils.getSession();
         UserMapper mapper = session.getMapper(UserMapper.class);
         User user = mapper.getUserById(1);
-        System.out.println(user + '\'');
+        System.out.println(user);
         session.close();
     }
 
