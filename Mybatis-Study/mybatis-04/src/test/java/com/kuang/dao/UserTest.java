@@ -18,9 +18,9 @@ public class UserTest {
     @Test
     public void test() {
 
-//        selectUserById(1);
+        selectUserById(1);
 //        selectAllUser();
-        getUserByLimit(1,2);
+//        getUserByLimit(1,2);
 
     }
 
