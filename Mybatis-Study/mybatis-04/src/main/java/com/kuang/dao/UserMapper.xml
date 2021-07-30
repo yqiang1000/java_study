@@ -17,5 +17,9 @@
         select * from user where id = #{id}
     </select>
 
+    <select id="getUserByLimit" parameterType="map" resultMap="UserMap">
+        select * from user limit #{page}, #{size}
+    </select>
+
 </mapper>
 
