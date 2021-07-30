@@ -23,6 +23,12 @@
     <!--需要注意的是：文件名 和 pom.xml 里面的目录 resources 目录下的文件名必须保持一直才能读取到-->
     <properties resource="db.properties"/>
 
+    <settings>
+        <!--标准日志工厂实现-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
     <!--别名-->
     <typeAliases>
         <!--1 单个取别名-->
