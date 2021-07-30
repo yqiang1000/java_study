@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de693f63-2fb9-4390-ba74-63c53e191361" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/Library/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.8.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vwmV1zRo6OzUsvb24NdG5mNZKm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-01/target/test-classes/com/kuang/dao" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis-01/target/test-classes/com/kuang/dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserTest">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.selectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.UserTest" />
+      <option name="METHOD_NAME" value="selectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserTest.selectUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de693f63-2fb9-4390-ba74-63c53e191361" name="Default Changelist" comment="" />
+      <created>1627481546030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627481546030</updated>
+      <workItem from="1627481549275" duration="2369000" />
+      <workItem from="1627483944136" duration="3567000" />
+      <workItem from="1627488078292" duration="107000" />
+      <workItem from="1627488197664" duration="1703000" />
+      <workItem from="1627519337116" duration="9557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="200" key="#Notifications" timestamp="1627487541490">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="440" y="200" key="#Notifications/0.25.1680.1025@0.25.1680.1025" timestamp="1627487541490" />
+    <state x="440" y="200" key="#SQL_Dialects" timestamp="1627489573536">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="440" y="200" key="#SQL_Dialects/0.25.1680.1025@0.25.1680.1025" timestamp="1627489573536" />
+    <state x="77" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627519592994">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="77" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1627519592994" />
+    <state x="90" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1627487573038" />
+    <state x="708" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627482549694">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="708" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1627482549694" />
+    <state x="823" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1627487639377">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="823" y="205" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1627487639377" />
+    <state width="410" height="466" key="DebuggerActiveHint" timestamp="1627540334010">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="410" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1627540334010" />
+    <state width="1398" height="414" key="GridCell.Tab.0.bottom" timestamp="1627543817093">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627543817093" />
+    <state width="1638" height="285" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
+    <state width="1398" height="414" key="GridCell.Tab.0.center" timestamp="1627543817092">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1627543817092" />
+    <state width="1638" height="285" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
+    <state width="1398" height="414" key="GridCell.Tab.0.left" timestamp="1627543817091">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1627543817091" />
+    <state width="1638" height="285" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904491" />
+    <state width="1398" height="414" key="GridCell.Tab.0.right" timestamp="1627543817092">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1627543817092" />
+    <state width="1638" height="285" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
+    <state width="1398" height="414" key="GridCell.Tab.1.bottom" timestamp="1627543817094">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627543817094" />
+    <state width="1638" height="285" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
+    <state width="1398" height="414" key="GridCell.Tab.1.center" timestamp="1627543817093">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1627543817093" />
+    <state width="1638" height="285" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
+    <state width="1398" height="414" key="GridCell.Tab.1.left" timestamp="1627543817093">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1627543817093" />
+    <state width="1638" height="285" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
+    <state width="1398" height="414" key="GridCell.Tab.1.right" timestamp="1627543817094">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="414" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1627543817094" />
+    <state width="1638" height="285" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
+    <state x="282" y="134" key="SettingsEditor" timestamp="1627540500255">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="282" y="134" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1627540500255" />
+    <state x="329" y="153" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1627483138921" />
+    <state x="497" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1627481551689">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="497" y="346" key="com.intellij.ide.util.TipDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1627481551689" />
+    <state x="487" y="212" key="new project wizard" timestamp="1627482099902">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="487" y="212" key="new project wizard/0.25.1680.1025@0.25.1680.1025" timestamp="1627482099902" />
+    <state x="482" y="83" key="refactoring.ChangeSignatureDialog" timestamp="1627540876299">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="482" y="83" key="refactoring.ChangeSignatureDialog/0.25.1440.875@0.25.1440.875" timestamp="1627540876299" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mybatis-01/src/main/java/com/kuang/dao/UserMapper.java</url>
+          <line>17</line>
+          <properties class="com.kuang.dao.UserMapper" method="getUserByIds" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
