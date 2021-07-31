@@ -17,6 +17,7 @@ public class StudentTest {
     }
 
 
+    @Test
     public void getStudent() {
         SqlSession sqlSession = MybatisUtils.getSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);

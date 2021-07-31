@@ -36,3 +36,15 @@ Mybatis-Study/mybatis-06/target/classes/com/kuang/pojo/Student.class
 Mybatis-Study/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
 Mybatis-Study/mybatis-06/target/classes/com/kuang/utils/MybatisUtils.class
 Mybatis-Study/mybatis-06/target/test-classes/com/kuang/dao/StudentTest.class
+Mybatis-Study/mybatis-07/target/classes/db.properties
+Mybatis-Study/mybatis-07/target/classes/log4j.properties
+Mybatis-Study/mybatis-07/target/classes/mybatis-config.xml
+Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/StudentMapper.class
+Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/TeacherMapper.class
+Mybatis-Study/mybatis-07/target/classes/com/kuang/pojo/Student.class
+Mybatis-Study/mybatis-07/target/classes/com/kuang/pojo/Teacher.class
+Mybatis-Study/mybatis-07/target/classes/com/kuang/utils/MybatisUtils.class
+Mybatis-Study/mybatis-07/target/classes/dao/StudentMapper.xml
+Mybatis-Study/mybatis-07/target/classes/dao/TeacherMapper.xml
+Mybatis-Study/mybatis-07/target/test-classes/com/kuang/dao/MyTest.class
+Mybatis-Study/mybatis-07/target/test-classes/META-INF/mybatis-07.kotlin_module
