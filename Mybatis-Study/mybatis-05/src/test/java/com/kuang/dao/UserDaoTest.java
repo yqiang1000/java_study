@@ -12,7 +12,11 @@ public class UserDaoTest {
     @Test
     public void test() {
 //        getAllUser();
-        getUserById(1);
+//        getUserById(1);
+//        addUser();
+//        delete();
+        updateUser();
+
     }
 
 
@@ -31,6 +35,32 @@ public class UserDaoTest {
         UserMapper mapper = session.getMapper(UserMapper.class);
         User user = mapper.getUserById(id);
         System.out.print(user);
+        session.close();
+    }
+
+    @Test
+    public void addUser () {
+        SqlSession session = MybatisUtils.getSession();
+        UserMapper mapper = session.getMapper(UserMapper.class);
+        User user1 = new User(11, "张春", "2323");
+        int resp = mapper.addUser(user1);
+        System.out.print(resp);
+        session.close();
+    }
+
+    public void delete () {
+        SqlSession session = MybatisUtils.getSession();
+        UserMapper mapper = session.getMapper(UserMapper.class);
+        int resp = mapper.deleteUser(7);
+        session.close();
+    }
+
+    @Test
+    public void updateUser () {
+        SqlSession session = MybatisUtils.getSession();
+        UserMapper mapper = session.getMapper(UserMapper.class);
+        User user1 = new User(7, "郭靖", "44");
+        int resp = mapper.updateUser(user1);
         session.close();
     }
 }
