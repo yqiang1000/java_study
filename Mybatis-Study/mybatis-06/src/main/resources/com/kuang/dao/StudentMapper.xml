@@ -6,8 +6,6 @@
 <mapper namespace="com.kuang.dao.StudentMapper">
 
 <!--    select s.id, s.name, s.tid, t.name as tname from student as s, Teacher as t where s.tid = t.id;-->
-
-
 <!--    方式一，按查询嵌套查询-->
     <resultMap id="StudentTeacher1" type="Student">
         <association property="teacher" column="tid" javaType="Teacher" select="getTeacher"/>
@@ -38,8 +36,6 @@
             <result property="name" column="tname"/>
         </association>
     </resultMap>
-
-
 
 
 </mapper>

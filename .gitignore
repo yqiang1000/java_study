@@ -48,3 +48,5 @@ Mybatis-Study/mybatis-07/target/classes/dao/StudentMapper.xml
 Mybatis-Study/mybatis-07/target/classes/dao/TeacherMapper.xml
 Mybatis-Study/mybatis-07/target/test-classes/com/kuang/dao/MyTest.class
 Mybatis-Study/mybatis-07/target/test-classes/META-INF/mybatis-07.kotlin_module
+Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/StudentMapper.xml
+Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/TeacherMapper.xml
