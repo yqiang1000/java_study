@@ -12,4 +12,6 @@ public interface BlogMapper {
     int addBlog(Blog blog);
 
     List<Blog> queryBlogListIF(Map map);
+
+    Blog getBlogById(Integer id);
 }

@@ -64,6 +64,6 @@ public class Blog {
                 ", author='" + author + '\'' +
                 ", createDate=" + createDate +
                 ", views=" + views +
-                '}' + '\n';
+                '}';
     }
 }

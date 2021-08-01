@@ -3,13 +3,13 @@ package com.kuang.dao;
 import com.kuang.pojo.Blog;
 import com.kuang.utils.IDUtils;
 import com.kuang.utils.MybatisUtils;
-import com.sun.tools.classfile.ConstantPool;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
-import sun.awt.image.PixelConverter;
-import sun.tools.tree.BinaryLogicalExpression;
 
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MyTest {
 
@@ -93,10 +93,26 @@ public class MyTest {
         BlogMapper mapper = session.getMapper(BlogMapper.class);
         List<Blog> blogs = mapper.queryBlogListIF(map);
         for (Blog blog : blogs) {
-            System.out.print(blog);
+            System.out.println(blog);
         }
+
         session.close();
     }
 
+    @Test
+    public void getBlogById() {
+        SqlSession session = MybatisUtils.getSqlSession();
+        BlogMapper mapper = session.getMapper(BlogMapper.class);
+        Blog blog = mapper.getBlogById(1);
+        System.out.println(blog);
+        System.out.println("==========================");
+        session.close();
 
+        SqlSession session1 = MybatisUtils.getSqlSession();
+        BlogMapper mapper1 = session1.getMapper(BlogMapper.class);
+        Blog blog1 = mapper1.getBlogById(1);
+        System.out.println(blog1);
+        System.out.println(blog == blog1);
+        session1.close();
+    }
 }

@@ -37,4 +37,34 @@
         </if>
     </select>
 
+
+<!--    if,when,choose,-->
+<!--where sql照常写，自动会去除多余的and-->
+    <select id="11" parameterType="map" resultMap="BlogResultMap">
+        <where>
+            <choose>
+                <when test="id != null">
+
+                </when>
+                <when test="title != null">
+
+                </when>
+                <otherwise>
+
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+
+<!--    二级缓存设置-->
+    <cache eviction="FIFO"
+           flushInterval="60000"
+           size="512"
+           readOnly="true"/>
+
+    <select id="getBlogById" parameterType="integer" resultMap="BlogResultMap">
+        select * from blog where id = #{id}
+    </select>
+
 </mapper>
