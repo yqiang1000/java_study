@@ -3,14 +3,13 @@ package com.kuang.dao;
 import com.kuang.pojo.Blog;
 import com.kuang.utils.IDUtils;
 import com.kuang.utils.MybatisUtils;
+import com.sun.tools.classfile.ConstantPool;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 import sun.awt.image.PixelConverter;
 import sun.tools.tree.BinaryLogicalExpression;
 
-import java.util.Date;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 public class MyTest {
 
@@ -24,7 +23,9 @@ public class MyTest {
 
     @Test
     public void Test () {
-
+        Map map = new HashMap();
+        map.put("title", "一");
+        queryBlog(map);
     }
 
     @Test
@@ -87,7 +88,15 @@ public class MyTest {
         session.close();
     }
 
-    public
+    public void queryBlog(Map map) {
+        SqlSession session = MybatisUtils.getSqlSession();
+        BlogMapper mapper = session.getMapper(BlogMapper.class);
+        List<Blog> blogs = mapper.queryBlogListIF(map);
+        for (Blog blog : blogs) {
+            System.out.print(blog);
+        }
+        session.close();
+    }
 
 
 }
