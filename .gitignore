@@ -50,3 +50,12 @@ Mybatis-Study/mybatis-07/target/test-classes/com/kuang/dao/MyTest.class
 Mybatis-Study/mybatis-07/target/test-classes/META-INF/mybatis-07.kotlin_module
 Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/StudentMapper.xml
 Mybatis-Study/mybatis-07/target/classes/com/kuang/dao/TeacherMapper.xml
+Mybatis-Study/mybatis-08/target/classes/db.properties
+Mybatis-Study/mybatis-08/target/classes/log4j.properties
+Mybatis-Study/mybatis-08/target/classes/mybatis-config.xml
+Mybatis-Study/mybatis-08/target/classes/com/kuang/dao/BlogMapper.class
+Mybatis-Study/mybatis-08/target/classes/com/kuang/dao/BlogMapper.xml
+Mybatis-Study/mybatis-08/target/classes/com/kuang/pojo/Blog.class
+Mybatis-Study/mybatis-08/target/classes/com/kuang/utils/IDUtils.class
+Mybatis-Study/mybatis-08/target/classes/com/kuang/utils/MybatisUtils.class
+Mybatis-Study/mybatis-08/target/test-classes/com/kuang/dao/MyTest.class

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de693f63-2fb9-4390-ba74-63c53e191361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/com/kuang/dao/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/log/kuang.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/kuang/dao/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/kuang/dao/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/kuang/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/kuang/utils/IDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/kuang/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/test/java/com/kuang/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/com/kuang/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/com/kuang/dao/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/log/kuang.log" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/log/kuang.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/kuang/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/kuang/dao/TeacherMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/com/kuang/dao/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/dao/TeacherMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/test/java/com/kuang/dao/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/test/java/com/kuang/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -94,7 +115,39 @@
       <recent name="$PROJECT_DIR$/mybatis-03/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test">
+  <component name="RunManager" selected="JUnit.MyTest.getAllBlog">
+    <configuration name="MyTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.getAllBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
+      <option name="METHOD_NAME" value="getAllBlog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest.getStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-07" />
       <extension name="coverage">
@@ -127,38 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.getTeacherById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
-      <option name="METHOD_NAME" value="getTeacherById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.getTeacherById1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
-      <option name="METHOD_NAME" value="getTeacherById1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-07" />
       <extension name="coverage">
@@ -177,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.getAllBlog" />
+        <item itemvalue="JUnit.MyTest.Test" />
         <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="JUnit.MyTest.getTeacher" />
         <item itemvalue="JUnit.MyTest.getStudent" />
-        <item itemvalue="JUnit.MyTest.getTeacherById" />
-        <item itemvalue="JUnit.MyTest.getTeacherById1" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +219,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@ae4355b" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7f85f313" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -223,7 +244,8 @@
       <workItem from="1627488197664" duration="1703000" />
       <workItem from="1627519337116" duration="9557000" />
       <workItem from="1627634527946" duration="9011000" />
-      <workItem from="1627700530796" duration="14198000" />
+      <workItem from="1627700530796" duration="14882000" />
+      <workItem from="1627792522354" duration="6961000" />
     </task>
     <servers />
   </component>
@@ -235,7 +257,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -270,10 +294,10 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="708" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1627482549694" />
-    <state x="705" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1627746180870">
+    <state x="705" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1627802246295">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="705" y="179" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1627746180870" />
+    <state x="705" y="179" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1627802246295" />
     <state x="823" y="205" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1627487639377" />
     <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1627659113558">
       <screen x="0" y="25" width="1440" height="875" />
@@ -283,55 +307,55 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="439" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1627644576401" />
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom" timestamp="1627751038294">
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1627804041254">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627751038294" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627804041254" />
     <state width="1638" height="285" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="290" key="GridCell.Tab.0.center" timestamp="1627751038293">
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1627804041253">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1627751038293" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1627804041253" />
     <state width="1638" height="285" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="290" key="GridCell.Tab.0.left" timestamp="1627751038293">
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1627804041253">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1627751038293" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1627804041253" />
     <state width="1638" height="285" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904491" />
-    <state width="1398" height="290" key="GridCell.Tab.0.right" timestamp="1627751038294">
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1627804041253">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1627751038294" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1627804041253" />
     <state width="1638" height="285" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="290" key="GridCell.Tab.1.bottom" timestamp="1627751038186">
+    <state width="1398" height="2" key="GridCell.Tab.1.bottom" timestamp="1627804041080">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627751038186" />
+    <state width="1398" height="2" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627804041080" />
     <state width="1638" height="285" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
-    <state width="1398" height="290" key="GridCell.Tab.1.center" timestamp="1627751038185">
+    <state width="1398" height="2" key="GridCell.Tab.1.center" timestamp="1627804041079">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1627751038185" />
+    <state width="1398" height="2" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1627804041079" />
     <state width="1638" height="285" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
-    <state width="1398" height="290" key="GridCell.Tab.1.left" timestamp="1627751038184">
+    <state width="1398" height="2" key="GridCell.Tab.1.left" timestamp="1627804041079">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1627751038184" />
+    <state width="1398" height="2" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1627804041079" />
     <state width="1638" height="285" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="290" key="GridCell.Tab.1.right" timestamp="1627751038185">
+    <state width="1398" height="2" key="GridCell.Tab.1.right" timestamp="1627804041079">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1627751038185" />
+    <state width="1398" height="2" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1627804041079" />
     <state width="1638" height="285" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
     <state x="259" y="92" key="SettingsEditor" timestamp="1627745999759">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="259" y="92" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1627745999759" />
     <state x="329" y="153" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1627483138921" />
-    <state x="426" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1627700531377">
+    <state x="426" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1627792530499">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="426" y="299" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1627700531377" />
+    <state x="426" y="299" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1627792530499" />
     <state x="497" y="346" key="com.intellij.ide.util.TipDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1627481551689" />
     <state x="506" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627659373014">
       <screen x="0" y="25" width="1440" height="875" />
@@ -341,19 +365,19 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="383" y="98" width="674" height="729" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1627750546560" />
-    <state x="247" y="185" key="new project wizard" timestamp="1627744055903">
+    <state x="247" y="185" key="new project wizard" timestamp="1627792620685">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="247" y="185" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1627744055903" />
+    <state x="247" y="185" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1627792620685" />
     <state x="487" y="212" key="new project wizard/0.25.1680.1025@0.25.1680.1025" timestamp="1627482099902" />
     <state x="482" y="83" key="refactoring.ChangeSignatureDialog" timestamp="1627732151261">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="482" y="83" key="refactoring.ChangeSignatureDialog/0.25.1440.875@0.25.1440.875" timestamp="1627732151261" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1627745924820">
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1627792871694">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1627745924820" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1627792871694" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
