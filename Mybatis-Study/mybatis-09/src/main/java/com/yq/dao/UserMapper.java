@@ -8,8 +8,6 @@ import java.util.Map;
 
 public interface UserMapper {
 
-    List<User> getUserList();
-
     /**
      * @param
      * @param map
@@ -51,7 +49,8 @@ public interface UserMapper {
     public List<User> getUserList(@Param("userName") String userName,
                                   @Param("userRole") Integer userRole,
                                   @Param("currentPageNO") Integer currentPageNO,
-                                  @Param("pageSize") Integer pageSize)throws Exception;
+                                  @Param("pageSize") Integer pageSize) throws Exception;
+
 
     /**
      *通过条件查询-用户记录数

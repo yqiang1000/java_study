@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de693f63-2fb9-4390-ba74-63c53e191361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-09/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/AddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/BillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/BillMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/ProviderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/ProviderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-09/src/test/java/com/yq/dao/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b858af7-c1e9-4f40-b6d5-7a459415926f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b858af7-c1e9-4f40-b6d5-7a459415926f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/main/java/com/yq/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/test/java/com/yq/dao/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/test/java/com/yq/dao/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,22 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.getAllBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
-      <option name="METHOD_NAME" value="getAllBlog" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyTest.getBlogById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-08" />
       <extension name="coverage">
@@ -173,17 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+    <configuration name="UserTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-09" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kuang.dao.*" />
+          <option name="PATTERN" value="com.yq.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kuang.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.dao.MyTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.yq.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yq.dao.UserTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.getLoginUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yq.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yq.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yq.dao.UserTest" />
+      <option name="METHOD_NAME" value="getLoginUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,10 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserTest.getUserList" />
+        <item itemvalue="JUnit.UserTest.getLoginUser" />
+        <item itemvalue="JUnit.UserTest.addUser" />
         <item itemvalue="JUnit.MyTest.getBlogById" />
         <item itemvalue="JUnit.MyTest.Test" />
-        <item itemvalue="JUnit.MyTest.getAllBlog" />
-        <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +239,7 @@
       <workItem from="1627634527946" duration="9011000" />
       <workItem from="1627700530796" duration="14882000" />
       <workItem from="1627792522354" duration="10206000" />
-      <workItem from="1627889109576" duration="2361000" />
+      <workItem from="1627889109576" duration="7479000" />
     </task>
     <servers />
   </component>
@@ -317,51 +301,59 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="439" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1627805314605" />
-    <state width="1398" height="20" key="GridCell.Tab.0.bottom" timestamp="1627891580676">
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom" timestamp="1627902373885">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627891580676" />
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627902373885" />
     <state width="1638" height="285" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="20" key="GridCell.Tab.0.center" timestamp="1627891580676">
+    <state width="1398" height="262" key="GridCell.Tab.0.center" timestamp="1627902373884">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1627891580676" />
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1627902373884" />
     <state width="1638" height="285" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="20" key="GridCell.Tab.0.left" timestamp="1627891580675">
+    <state width="1398" height="262" key="GridCell.Tab.0.left" timestamp="1627902373883">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1627891580675" />
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1627902373883" />
     <state width="1638" height="285" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904491" />
-    <state width="1398" height="20" key="GridCell.Tab.0.right" timestamp="1627891580676">
+    <state width="1398" height="262" key="GridCell.Tab.0.right" timestamp="1627902373884">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1627891580676" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1627902373884" />
     <state width="1638" height="285" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="20" key="GridCell.Tab.1.bottom" timestamp="1627891580520">
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1627902373771">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627891580520" />
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1627902373771" />
     <state width="1638" height="285" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
-    <state width="1398" height="20" key="GridCell.Tab.1.center" timestamp="1627891580519">
+    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1627902373770">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1627891580519" />
+    <state width="1398" height="262" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1627902373770" />
     <state width="1638" height="285" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
-    <state width="1398" height="20" key="GridCell.Tab.1.left" timestamp="1627891580519">
+    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1627902373770">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1627891580519" />
+    <state width="1398" height="262" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1627902373770" />
     <state width="1638" height="285" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904492" />
-    <state width="1398" height="20" key="GridCell.Tab.1.right" timestamp="1627891580520">
+    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1627902373771">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="20" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1627891580520" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1627902373771" />
     <state width="1638" height="285" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1627489904493" />
-    <state x="259" y="92" key="SettingsEditor" timestamp="1627745999759">
+    <state x="259" y="92" key="SettingsEditor" timestamp="1627896860489">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="259" y="92" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1627745999759" />
+    <state x="259" y="92" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1627896860489" />
     <state x="329" y="153" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1627483138921" />
+    <state x="308" y="121" key="com.intellij.database.dbimport.ImportDialog" timestamp="1627895480707">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="308" y="121" key="com.intellij.database.dbimport.ImportDialog/0.25.1440.875@0.25.1440.875" timestamp="1627895480707" />
+    <state x="458" y="271" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1627895476571">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="458" y="271" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.25.1440.875@0.25.1440.875" timestamp="1627895476571" />
     <state x="426" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1627889109831">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

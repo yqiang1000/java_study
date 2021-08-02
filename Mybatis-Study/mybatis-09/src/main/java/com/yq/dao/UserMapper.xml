@@ -5,8 +5,47 @@
 
 <mapper namespace="com.yq.dao.UserMapper">
 
-    <select id="getUserList" resultType="User">
+    <select id="getUser" resultType="User">
         select * from smbms_user
     </select>
+
+    <select id="getLoginUser" parameterType="string" resultType="User">
+        select * from smbms_user where userCode = #{userCode}
+    </select>
+
+    <insert id="add" parameterType="User">
+        INSERT INTO smbms_user (id, userCode, userName, userPassword, gender, birthday,phone, address, userRole, createdBy, creationDate, modifyBy, modifyDate)
+        Values (#{id}, #{userCode}, #{userName}, #{userPassword}, #{gender}, #{birthday}, #{phone}, #{address}, #{userRole}, #{createdBy}, #{creationDate}, #{modifyBy}, #{modifyDate})
+    </insert>
+
+    <select id="getUserList" parameterType="map" resultType="User">
+        select * from smbms_user
+        <where>
+            <if test="userName != null">and userName = #{userName}</if>
+            <if test="userRole">and userRole=#{userRole}</if>
+        </where>
+        <if test="currentPageNO != null">limit #{currentPageNO}</if>
+        <if test="currentPageNO != null and pageSize != null">, #{pageSize}</if>
+    </select>
+
+
+
+
+    <select id="getUserCount" resultType="java.lang.Integer">
+        select count from smbms_user where name = #{name} and userRole = #{userRole}
+    </select>
+
+
+    <delete id="deleteUserById"></delete>
+    <select id="getUserById" resultType="User"></select>
+    <update id="updatePwd"></update>
+    <update id="modify"></update>
+
+
+
+
+
+
+
 
 </mapper>
