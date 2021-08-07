@@ -17,7 +17,7 @@ public class UserTest {
         SqlSession session = MybatisUtils.getSession();
         UserMapper mapper = session.getMapper(UserMapper.class);
         User user = new User();
-        user.setId(2);
+        user.setId(13);
         user.setUserCode("10240001");
         user.setUserName("小明");
         user.setUserPassword("xiaoming");

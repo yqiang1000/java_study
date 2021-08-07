@@ -99,4 +99,7 @@ public interface UserMapper {
     //修改当前用户密码
     public int updatePwd(@Param("id") Integer id, @Param("userPassword") String userPassword);
 
+    public int updatePwds(User user);
+
+
 }

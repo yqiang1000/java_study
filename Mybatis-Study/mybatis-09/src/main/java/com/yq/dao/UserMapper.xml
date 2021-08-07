@@ -40,12 +40,7 @@
     <select id="getUserById" resultType="User"></select>
     <update id="updatePwd"></update>
     <update id="modify"></update>
-
-
-
-
-
-
+    <update id="updatePwds"></update>
 
 
 </mapper>
