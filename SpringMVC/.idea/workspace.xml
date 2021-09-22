@@ -20,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -43,11 +46,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
@@ -182,10 +188,14 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="988" y="176" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1631949646238" />
-    <state x="545" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1631932907241">
+    <state x="545" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1632298214515">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="545" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.875@0.25.1440.875" timestamp="1631932907241" />
+    <state x="545" y="123" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.875@0.25.1440.875" timestamp="1632298214515" />
+    <state x="486" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1632298174409">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="486" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.875@0.25.1440.875" timestamp="1632298174409" />
     <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1631956436531">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -258,9 +268,9 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="397" y="291" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1631932460767" />
-    <state x="123" y="157" key="new project wizard" timestamp="1631932525050">
+    <state x="123" y="157" key="new project wizard" timestamp="1632298201278">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="123" y="157" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1631932525050" />
+    <state x="123" y="157" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1632298201278" />
   </component>
 </project>

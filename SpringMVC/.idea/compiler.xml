@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Springmvc-01-servlte" />
+        <module name="SpringMVC-02-hellomvc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringMVC-hellomvc" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
