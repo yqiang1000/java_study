@@ -10,8 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Springmvc-01-servlte</module>
-        <module>SpringMVC-hellomvc</module>
         <module>SpringMVC-02-hellomvc</module>
+        <module>Springmvc-03-hellomvc-new</module>
     </modules>
 
     <dependencies>
@@ -39,6 +39,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.9</version>
         </dependency>
     </dependencies>
 
